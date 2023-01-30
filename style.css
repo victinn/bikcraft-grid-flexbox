@@ -33,6 +33,7 @@ h1,h2,h3,p{
     display: flex;  
     flex-wrap: wrap;
     gap: 1.25rem;
+    justify-content: center;
 }
 
 .flex a{
@@ -90,6 +91,11 @@ li{
 
 .info h1{
     font-size: 2rem;
+}
+
+.info-cover img{
+    object-fit: cover;
+    height: 100%;
 }
 
 .imagem{
@@ -156,4 +162,39 @@ footer{
     text-align: center;
     padding: 2.5rem;
     box-sizing: border-box;
+}
+
+@media (max-width: 1000px){
+    .conteudo-vantagem{
+        grid-template-columns: 1fr;
+    }
+
+    .vantagensTexto{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .info::after{
+        display: none;
+    }
+
+    body{
+        gap: 1.87rem;
+        margin-top: 1.87rem;
+    }
+
+    .info{
+        justify-items: center;
+        text-align: center;
+    }
+
+    .vantagensTexto{
+        font-size: 3rem;
+    }
 }
