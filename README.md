@@ -6,8 +6,9 @@
  - HTML
  - CSS
  
-## Aprendizados
+## Conhecimentos aprendidos e/ou reforçados
  - Posicionamento
  - Grid
  - Flexbox
  - Padrões de acessibilidade
+ - Responsibilidade
